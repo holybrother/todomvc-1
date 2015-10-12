@@ -4,7 +4,6 @@ import model.Note;
 import model.NoteRepository;
 import model.User;
 import model.UserRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
@@ -15,9 +14,8 @@ import java.util.Collection;
 @RestController // http://localhost:8080/root/notes
 @RequestMapping("{username}/notes")
 public class NotesController {
-    @Autowired
+
     NoteRepository noteRepository;
-    @Autowired
     UserRepository userRepository;
 
     @RequestMapping
