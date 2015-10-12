@@ -9,10 +9,6 @@ import javax.persistence.OneToMany;
 import java.util.HashSet;
 import java.util.Set;
 
-
-/**
- * Created by admin on 12.10.2015.
- */
 @Entity
 public class User {
 

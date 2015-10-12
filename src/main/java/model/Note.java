@@ -6,9 +6,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
-/**
- * Created by admin on 12.10.2015.
- */
 public class Note {
     @JsonIgnore
     @ManyToOne
