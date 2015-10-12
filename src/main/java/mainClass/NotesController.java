@@ -25,7 +25,7 @@ public class NotesController {
         return noteRepository.findByUserUsername(username);
     }
 
-    @RequestMapping(method= RequestMethod.POST)
+    @RequestMapping(method = RequestMethod.POST)
     public void addNote(@PathVariable String username, @Valid @RequestBody Note note){
         User user = userRepository.findByUsername(username)
                 .orElseThrow(() -> new UserNotFoundException(username));
