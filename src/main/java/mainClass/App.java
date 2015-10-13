@@ -15,8 +15,6 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ComponentScan
 @EnableAutoConfiguration
-
-
 public class App {
     @Bean
     CommandLineRunner init(UserRepository userRepository, NoteRepository noteRepository) {

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="maven:maven-war-plugin:1.6.3" type="repository">
+    <properties maven-id="maven:maven-war-plugin:1.6.3" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/maven-war-plugin-1.6.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-lang-2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
